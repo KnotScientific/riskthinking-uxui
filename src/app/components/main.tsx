@@ -77,7 +77,6 @@ const RiskMap = () => {
   useEffect(() => {
     if (!filterOpen) {
       setFinalFilter((prev) => ({ ...prev, ...filter }));
-      console.log(finalFilter);
     }
   }, [filterOpen]);
 
